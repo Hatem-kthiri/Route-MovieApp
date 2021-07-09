@@ -33,7 +33,7 @@ function MovieDetails({ MovieData }) {
                 allowfullscreen></iframe>
 
                 </div>
-                    <button><NavLink  className="Home-link" to="/" >Back Home</NavLink></button>
+                    <button className="Home-link"><NavLink   to="/" >Back Home</NavLink></button>
             </div>
             
 
