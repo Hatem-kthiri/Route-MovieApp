@@ -1,6 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "../MovieDetails/MovieDetails.css";
+import { NavLink   } from "react-router-dom";
+
 
 function MovieDetails({ MovieData }) {
     const { movieTitle } = useParams();
@@ -31,7 +33,7 @@ function MovieDetails({ MovieData }) {
                 allowfullscreen></iframe>
 
                 </div>
-
+                    <button><NavLink  className="Home-link" to="/" >Back Home</NavLink></button>
             </div>
             
 
